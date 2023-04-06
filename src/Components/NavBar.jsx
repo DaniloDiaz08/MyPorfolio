@@ -30,7 +30,7 @@ const NavBar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#424242] flex flex-col justify-center items-center'}>
+      <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#323232] flex flex-col justify-center items-center'}>
         <div>
           <img src={Logo} alt="Logo Image" style={{ width: '120px' }} />
         </div>
