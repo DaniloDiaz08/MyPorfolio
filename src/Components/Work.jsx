@@ -8,9 +8,9 @@ import PrSchool from '../assets/PrSchool.jpg';
 
 const Work = () => {
     return (
-        <div className='w-full h-screen text-gray-300 bg-[#424242]'>
-            <div className='max-w-[1000px] mx-auto p-4 felx flex-col justify-center w-ful h-full'>
-                <div className='pb-8 mt-[720px]'>
+        <div className='w-full mt-20 text-gray-300 bg-[#424242]'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-ful h-full'>
+                <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#44cde3]'>Work</p>
                     <p className='py-6'>| Check out some of my recent Work</p>
                 </div>
