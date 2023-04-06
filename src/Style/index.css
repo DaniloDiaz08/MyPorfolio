@@ -17,3 +17,18 @@
 body {
     background-color: #424242;
 }
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgb(147, 239, 255),
+        rgb(80, 208, 224)
+    )!important;
+}
