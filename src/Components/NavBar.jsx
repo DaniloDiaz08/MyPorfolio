@@ -55,33 +55,47 @@ const NavBar = () => {
         <div>
           <img src={Logo} alt="Logo Image" style={{ width: '120px' }} />
         </div>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Work</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="Home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="About" smooth={true} duration={500}>
+          About Me
+        </Link></li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="Skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="Work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social Icons */}
       <div className=' hidden lg:flex fixed flex-col top-[35%] left-0 gap-8'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#44cde3] rounded-t-xl font-bold'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
+            <a Target='_blank' className='flex justify-between items-center w-full text-white' href="https://www.linkedin.com/in/danilo-diaz-/">
               LinKedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#44cde3] font-bold'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
+            <a Target='_blank' className='flex justify-between items-center w-full text-white' href="https://github.com/DaniloDiaz08">
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#44cde3] font-bold'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#44cde3] rounded-b-xl font-bold'>
-            <a className='flex justify-between items-center w-full text-white' href="/">
+            <a Target='_blank' className='flex justify-between items-center w-full text-white' href="../../public/Corporate resume Danilo Diaz English.pdf">
               Resome <BsFillPersonLinesFill size={30} />
             </a>
           </li>
