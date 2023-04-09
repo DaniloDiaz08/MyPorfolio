@@ -95,7 +95,7 @@ const NavBar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#44cde3] rounded-b-xl font-bold'>
-            <a Target='_blank' className='flex justify-between items-center w-full text-white' href="../../public/Corporate resume Danilo Diaz English.pdf">
+            <a Target='_blank' className='flex justify-between items-center w-full text-white' href="/CvProfile.pdf">
               Resome <BsFillPersonLinesFill size={30} />
             </a>
           </li>
