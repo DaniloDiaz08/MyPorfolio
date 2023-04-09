@@ -8,7 +8,7 @@ import PrSchool from '../assets/PrSchool.jpg';
 
 const Work = () => {
     return (
-        <div className='w-full mt-20 text-gray-300 bg-[#424242]'>
+        <div name="Work" className='w-full mt-20 text-gray-300 bg-[#424242]'>
 
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-ful h-full'>

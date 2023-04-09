@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='w-full mt-20 bg-[#424242] flex justify-center p-4'>
+        <div name="Contact" className='w-full mt-20 bg-[#424242] flex justify-center p-4'>
             <form method='POST' action="https://getform.io/f/e21fd801-7d89-4e94-84bc-883ac052e658" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#44cde3] text-gray-300'>Contact</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                         <span class="absolute left-0 pl-2.5 -translate-x-12 group-hover:translate-x-0 ease-out duration-200">
                             <svg class="w-5 h-5 text-[#1b9db1]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </span>
-                        <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">let's Collaborate</span>
+                        <span class="relative w-full text-left transition-colors duration-200 ease-in-out group-hover:text-white">Send</span>
                     </button>
                </div>
             </form>
