@@ -8,7 +8,7 @@ const Home = () => {
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <p className='text-[#44CDE3] mt-[215px]'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#CCD6F6]'>Danilo Díaz</h1>
-                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I am a Junior Full Stack Developer</h2>
                 <p className='text-white py-4 max-w-[700px]'>I am a junior web developer with skills in HTML, CSS, JavaScript, React.js, Node.js, MySQL, MongoDB and Express.js, with interest in user experience through modern and efficient web designs. <br /><br /> Thanks to my background I have done coding projects individually and in groups, which has allowed me to develop skills in SCRUM methodologies, teamwork and active listening. </p>
                 <div>
                     <a href="#_" class="relative inline-flex items-center justify-start py-3 pl-4 pr-12 overflow-hidden font-semibold text-[#44cde3] transition-all duration-150 ease-in-out rounded hover:pl-10 hover:pr-6 bg-[#424242] group">
