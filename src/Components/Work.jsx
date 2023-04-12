@@ -28,10 +28,10 @@ const Work = () => {
                                 Zshop Home Page
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a Target='_blank' href="https://proyecto-zshop-five.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a Target='_blank' href="https://github.com/DaniloDiaz08/Proyecto-Zshop">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
@@ -47,10 +47,10 @@ const Work = () => {
                                 Api Profiles Github
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a Target='_blank' href="https://perfil-githud-reto.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a Target='_blank' href="https://github.com/DaniloDiaz08/Perfil-Githud-Reto">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
@@ -66,10 +66,10 @@ const Work = () => {
                                 Dezeer Imitation
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://proyecto-deezer.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/DaniloDiaz08/Proyecto-Deezer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
@@ -85,10 +85,10 @@ const Work = () => {
                                 Calculator In Js
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://project-caculator.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/DaniloDiaz08/Project-caculator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
@@ -104,10 +104,10 @@ const Work = () => {
                                 OQA online store
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://tienda-online-oqa-vsfu.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/DaniloDiaz08/Project-final-frontend">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
@@ -123,10 +123,10 @@ const Work = () => {
                                 Programate School
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="   https://programate-school-front.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/programateacademy/PROGRAMATE-SCHOOL-FRONT">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#424242] font-bold text-lg'>Code</button>
                                 </a>
 
